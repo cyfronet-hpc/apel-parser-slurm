@@ -1,0 +1,5 @@
+# apel-preparer cron file
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin
+
+# start at 1 a.m. every day
+0 1 * * * root /opt/cyfronet/bin/apel-preparer.py -c -s
